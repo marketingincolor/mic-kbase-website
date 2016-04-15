@@ -19,6 +19,7 @@ This GitHub repository includes the entire codebase installation for MIC Knowled
 
 ##Notes##
 **04/15/2016:** Project added to GitHub
+
 **04/07/2016:** Changed H2 & H3 Color
 
 **04/07/2016:** Changed Link Color
