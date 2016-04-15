@@ -53,7 +53,7 @@ body {background: rgba(137, 138, 142, 0);}
  * 3.1 WP-Knowledgebase Overrides
  * -----------------------------------------------------------------------------
  */
-
+.kbe_reply {width: 100% !important;}
 .kbe_reply .reply a {
     background: url(reply.png) no-repeat;
     float: right;
@@ -73,6 +73,7 @@ body {background: rgba(137, 138, 142, 0);}
 /*.kbe_reply .commentlist li p { padding-left:4em;}*/
 #kbe_container h1 {color: #F28B00;}
 
+#kbe_content .kbe_category h2 a {color: #838487 !important;}
 #kbe_content .kbe_leftcol h2,h3 {color: #673a88;}
 
 .kbe_search_field input[type=text] {width: 100% !important; margin-top;}
@@ -93,8 +94,17 @@ body {background: rgba(137, 138, 142, 0);}
 
 .row {width:100%; height: auto; height: 1.6em; margin-bottom: .5em; border-bottom: 1px solid darkgray}
 
-button, input[type="submit"] {background:#f28b00; border:2px solid #838487;}
+.button, input[type="submit"]:hover {background:#f28b00; color:#fff;}
+.button, input[type="submit"] {background:#fff;color:#838487; border:2px solid #f28b00; position:relative; float:right;}
+textarea:focus {border-color:#a46bad !important;}
 
+/*plus/minus image fix for KB dropdowns*/
+.kbe_category span.switch img {content: none;}
+#kbe_content .kbe_leftcol .kbe_reply textarea {width:100% !important}
+
+.kbe_category span.switch img {
+  content: none !important;
+}
 /**
  * 4.0 Header
  * -----------------------------------------------------------------------------
