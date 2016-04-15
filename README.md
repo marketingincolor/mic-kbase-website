@@ -36,6 +36,6 @@ This GitHub repository includes the entire codebase installation for MIC Knowled
 
 **03/07/2016:** Added Site Password Protection
 
-*03/07/2016:* Updated Robots.txt to remove from Google Search
+**03/07/2016:** Updated Robots.txt to remove from Google Search
 
-*03/07/2016:* Changed font to sans-serif
+**03/07/2016:** Changed font to sans-serif
