@@ -18,7 +18,7 @@ This GitHub repository includes the entire codebase installation for MIC Knowled
 **Completion Date:**
 
 ##Notes##
-**04/15/2016:** Project added to GitHub
+**04/15/2016:** Project added to GitHub, changed title colors to MIC 'Eminence Gray', Added Breadcrumbs & redirects, changed reply textarea width, changed focus border colors on text areas, Fixed issue #2
 
 **04/07/2016:** Changed H2 & H3 Color
 
