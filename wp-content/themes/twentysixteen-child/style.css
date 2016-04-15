@@ -93,6 +93,8 @@ body {background: rgba(137, 138, 142, 0);}
 
 .row {width:100%; height: auto; height: 1.6em; margin-bottom: .5em; border-bottom: 1px solid darkgray}
 
+button, input[type="submit"] {background:#f28b00; border:2px solid #838487;}
+
 /**
  * 4.0 Header
  * -----------------------------------------------------------------------------
