@@ -18,7 +18,9 @@ This GitHub repository includes the entire codebase installation for MIC Knowled
 **Completion Date:**
 
 ##Notes##
-**04/15/2016:** Project added to GitHub, changed title colors to MIC 'Eminence Gray', Added Breadcrumbs & redirects, changed reply textarea width, changed focus border colors on text areas, [Fixed issue #2](https://github.com/marketingincolor/mic-kbase-website/issues/2)
+**04/15/2016:** 
+
+Project added to GitHub, changed title colors to MIC 'Eminence Gray', Added Breadcrumbs & redirects, changed reply textarea width, changed focus border colors on text areas, [Fixed Issue #2](https://github.com/marketingincolor/mic-kbase-website/issues/2). Edd completed [Issue #3] (https://github.com/marketingincolor/mic-kbase-website/issue/3).
 
 **04/07/2016:** Changed H2 & H3 Color
 
