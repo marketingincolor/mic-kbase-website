@@ -636,7 +636,7 @@
 /*======> responsive layout <======*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     #kbe_content .kbe_leftcol {
-        width: 65%;
+
     }
     #kbe_content .kbe_category {
         width: 100%;
@@ -682,7 +682,6 @@
 
     .kbe_content_right {
         float: left;
-        width: 64% !important;
         margin-bottom: 30px;
         margin-right: 36px;
     }
@@ -720,7 +719,6 @@
         width: 68% !important;
     }
     .kbe_content_right{
-        width: 68% !important;
     }
     .kbe_leftcol{
         width: 96% !important;

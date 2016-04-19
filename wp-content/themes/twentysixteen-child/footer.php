@@ -47,7 +47,6 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 				<a href="<?php echo esc_url( __( 'kb2.marketingincolor.com/wp-admin/', 'twentysixteen-child' ) ); ?>"><?php printf( __( 'Login', 'twentysixteen-child' )); ?></a>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->

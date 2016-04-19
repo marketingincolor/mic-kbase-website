@@ -2,9 +2,9 @@
 Theme Name: Twenty Sixteen Child
 Theme URI: http://yoursite.com/link/to/theme
 Template: twentysixteen
-Author: Your Name
-Author URI: http://yoursite.com
-Description: Your theme description.
+Author: AD
+Author URI:
+Description: Knowledgebase made with twenty-sixteen child and wp-knowledgebase.
 Tags: fixed-layout,fluid-layout,responsive-layout,left-sidebar,right-sidebar,custom-menu,featured-images,full-width-template,post-formats,sticky-post,theme-options,translation-ready
 Version: 1.0.0.1457400986
 Updated: 2016-03-08 01:36:26
@@ -68,7 +68,8 @@ body {background: rgba(137, 138, 142, 0);}
 }
 
 #kbe_content .kbe_leftcol a {color: #817c00;}
-
+.kbe_leftcol .kbe_categories p a {color: #000; }
+.kbe_leftcol p a {color:#817c00 !important;}
 .kbe_leftcol ol {width:100%;}
 /*.kbe_reply .commentlist li p { padding-left:4em;}*/
 #kbe_container h1 {color: #F28B00;}
@@ -78,7 +79,7 @@ body {background: rgba(137, 138, 142, 0);}
 
 .kbe_search_field input[type=text] {width: 100% !important; margin-top;}
 
-.kbe_container{font-family: 'Open Sans', sans-serif;}
+#kbe_container{font-family: 'Open Sans', sans-serif;}
 
 #kbe_content .kbe_leftcol .kbe_reply span {float:right;}
 
@@ -88,7 +89,7 @@ body {background: rgba(137, 138, 142, 0);}
 
 .entry-original{float:left;font-size: .7em;width: 50%;}
 
-#kbe_content h2 span.kbe_count {background: darkgreen;}
+#kbe_content h2 span.kbe_count {background: #a9ad00;}
 
 .entry-last{float:right;text-align:right;font-size: .7em;width: 50%; padding-bottom:2em;}
 
@@ -135,7 +136,9 @@ textarea:focus {border-color:#a46bad !important;}
    /* padding-left:4.4em;*/
 }
 
-
+.site-header {
+    padding: .25em 4.5455%;
+}
 
 /*Smartphones*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 482px) {
@@ -157,12 +160,20 @@ textarea:focus {border-color:#a46bad !important;}
     #kbe_container {padding:1em;}
     .kbe_widget li a {display:none;}
 
+}@media screen and (min-width: 481px) and (max-width: 640px) {
+	#kbe_container {width: 100%;margin: 0 auto;padding: 1em;}
 }
+
+@media screen and (min-width: 641px) and (max-width: 767px) {
+	.kbe_content_right{padding: 1em; padding-left:2em;}
 
 /*iPads portrait and landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #kbe_container{font-family: 'Open Sans', sans-serif; padding:1em;}
-
+		.kbe_aside.kbe_aside_left {display: none;}
+		.kbe_content_right{width:100% !important;}
+		.kbe_content {position:relative !important; right:3em !important;}
+		.kbe_aside {display:none;}
     .entry-last { float: left;text-align: left; font-size: .7em;width: 100%;padding-bottom: 2em;}
     .row{height:2.8em;}
 
