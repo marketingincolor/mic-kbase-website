@@ -19,6 +19,9 @@ This GitHub repository includes the entire codebase installation for MIC Knowled
 
 ##Notes##
 **04/15/2016:** 
+[Fixed Issue #1](https://github.com/marketingincolor/mic-kbase-website/issues/1). This fixed the page flashing effect.
+
+**04/15/2016:** 
 
 Project added to GitHub, changed title colors to MIC 'Eminence Gray', Added Breadcrumbs & redirects, changed reply textarea width, changed focus border colors on text areas, [Fixed Issue #2](https://github.com/marketingincolor/mic-kbase-website/issues/2). Edd completed [Issue #3] (https://github.com/marketingincolor/mic-kbase-website/issues/3).
 
